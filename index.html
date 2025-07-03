@@ -9,20 +9,21 @@
 </head>
 
 <body>
-<section class="chat-window">
-<button class="close">close</button>
-<div class="chat">
-    <div class="model">
-        <p>Hi! How can i help you</p>
-    </div>
-</div>
-<div class="inp-area">
-    <input placeholder="ask me anythin..." type="text">
-<button>Send</button>
-</div>
-</section>
+    <section class="chat-window">
+        <button class="close" aria-label="Close chat">Close</button>
 
-    <script src="script.js"></script>
+        <div class="chat">
+            <div class="model">
+                <p>Hi! How can I help you?</p>
+            </div>
+        </div>
+
+      <div class="inp-area">
+  <input id="user-input" type="text" placeholder="Ask me anything..." autocomplete="off" />
+  <button onclick="sendMessage()">Send</button>
+</div>
+    </section>
+    <script  src="script.js"></script>
 </body>
 
 </html>
